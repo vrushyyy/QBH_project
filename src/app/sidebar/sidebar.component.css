@@ -1,0 +1,65 @@
+ /* General Sidebar Styling */
+ /* .sidebar {
+    background-color: #f4f4f4;
+    padding: 15px;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 70px; Adjusted to fit below the navbar */
+     /* left: 0;
+    overflow-y: auto;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+   
+   .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  } 
+  
+   .sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    display: block;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #3399cc;
+    color: white;
+  }  */
+
+
+  
+  p{
+    color: aliceblue;
+  cursor: pointer;
+  }
+  
+  
+  img{
+    color: aliceblue;
+  }
+  
+  .main-sidebar{
+    background-color: #3399cc;
+  }
+  
+  .brand-text{
+    color: rgb(10, 10, 10);
+    font-size: 50px;
+  }
+  .sidebar{
+    height:140vh;
+  }
+  .d-block{
+    color: rgb(10, 10, 10);
+  
+  }

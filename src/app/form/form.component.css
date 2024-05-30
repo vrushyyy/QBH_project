@@ -1,0 +1,31 @@
+form div {
+    margin-bottom: 10px;
+  
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background-color: #f7f9fc;
+      margin-left: 13rem;
+    }
+  
+  
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  input {
+    padding: 5px;
+    width: 200px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #3399cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

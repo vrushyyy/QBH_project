@@ -1,0 +1,25 @@
+<Div class="container">
+
+
+<table  class="table table-bordered" >
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Phone Number</th>
+    <th>Address</th>
+    <th>Actions</th>
+  </tr>
+  <tr *ngFor="let user of users">
+    <td>{{ user.name }}</td>
+    <td>{{ user.email }}</td>
+    <td>{{ user.phone }}</td>
+    <td>{{ user.address }}</td>
+    <td>
+      <button  type="button" class="btn btn-outline-warning" (click)="editUser(user)">Edit</button>
+      <button  type="button"class="btn btn-outline-danger" (click)="deleteUser(user)">Delete</button>
+    </td>
+  </tr>
+</table>
+<button style="margin-left: 29rem; margin-top: 20px;;"  (click)="generatePDF()">Generate PDF</button>
+<app-pdf-viewer *ngIf="pdfSrc" [pdfSrc]="pdfSrc"></app-pdf-viewer>
+</Div>
